@@ -47,13 +47,13 @@ Description: We can insert an xss into the feedback and submit it and then when 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+Description: Here we can see that by changing the id in the url we are able to access hidden content!
 
-<img src="red-vuln1.gif">
+<img src="idor.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 Description:
 
