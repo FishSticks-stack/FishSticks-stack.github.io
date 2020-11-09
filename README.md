@@ -55,9 +55,9 @@ Description: Here we can see that by changing the id in the url we are able to a
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
-Description:
+Description: Here we can see that the csrf token isn't valid and allows the user to continue to make updates to the users information.
 
-<img src="red-vuln2.gif">
+<img src="csrf.gif">
 
 
 ## Notes
