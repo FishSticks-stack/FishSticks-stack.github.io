@@ -21,13 +21,13 @@ Vulnerability #1: SQL Injection
 
 Description:
 
-<img src="sql.gif">
+<img src="SQL.gif">
 
 Vulnerability #2: __________________
 
 Description:
 
-<img src="blue-vuln2.gif">
+<img src="session.gif">
 
 ## Green
 
