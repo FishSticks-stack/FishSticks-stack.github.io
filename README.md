@@ -38,11 +38,11 @@ Description: Here we use the example name, jmonroe99, where the failure to login
 
 <img src="username.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting
 
-Description:
+Description: We can insert an xss into the feedback and submit it and then when we log into our account we can see it in our feedback!
 
-<img src="green-vuln2.gif">
+<img src="css.gif">
 
 
 ## Red
