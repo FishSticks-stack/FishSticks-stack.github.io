@@ -24,7 +24,7 @@ Now we can see that this command makes the database wait a couple of seconds to 
 
 <img src="SQL.gif">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
 
 Description: We grab the victim's session ID with the codepath tool provided: hacktools/change_session_id.php. Using burp, we can intercept the attackers side in an attempt to secure the site. We can modify the attackers session ID with the one of the victims and once its been forwarded the attacker is now logged in as the victim.
 
@@ -34,9 +34,9 @@ Description: We grab the victim's session ID with the codepath tool provided: ha
 
 Vulnerability #1: Username Enumeration
 
-Description: Here we use the example name, jmonroe99, where the failure to login message differs for the Username that exists vs doesn't exist. Using the element tool in firefox
+Description: Here we use the example name, jmonroe99, where the failure to login message differs for the Username that exists vs doesn't exist. Using the element tool in firefox wecan see that the developer uses "Failed" and "Failure" on the error message depending on the exact senario, "Failure" is given in bold while the other isn't.
 
-<img src="green-vuln1.gif">
+<img src="username.gif">
 
 Vulnerability #2: __________________
 
