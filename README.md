@@ -6,7 +6,7 @@
 
 ### MHN-Admin Deployment (Required)
 
-**Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
+**Summary:** How did you deploy it? I used GCP to deploy the mhn-admin below and using the guide provided by codepath to build the firewall rules, making sure to replace every '/' with '^'. It's important to have your google account and billing information in order or the GCP will not let you procede with these changes to the firewall. Follow codepath's guide to create the mhn-admin vm and then establish ssh access to the vm via: gcloud compute ssh mhn-admin.
 
 <img src="mhn-admin.gif">
 
