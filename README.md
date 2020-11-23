@@ -18,8 +18,8 @@
 
 ### Database Backup (Required) 
 
-**Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
-
+**Summary:** What is the RDBMS that MHN-Admin uses? The rdbms that it uses is mnemosyne. What information does the exported JSON file record? It records the attacks that our honeypots have intercepted while in operation. Exporting the JSON file was easy but finding where it was, was another task in itself, but eventually it was found.
+See session.json file attached.
 *Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
 
 ### Deploying Additional Honeypot(s) (Optional)
