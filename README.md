@@ -24,8 +24,8 @@ See session.json file attached.
 
 ### Deploying Additional Honeypot(s) (Optional)
 
-#### X Honeypot
+#### 2 Honeypots
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+**Summary:** What does this honeypot simulate and do for a security researcher? These honeypots simulate being attacked by attackers all over the gobe so we can intercept their attacks and gain an understanding of what hackers are doing now and how we can prevent against them. I created two additional honeypots. 
 
 <img src="x-honeypot.gif">
