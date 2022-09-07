@@ -26,3 +26,4 @@ Save the file as **screenfetch.gif**.
  
 ### Running screenfetch
 <img src="screenfetch.gif" alt="Running screenfetch">
+
